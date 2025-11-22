@@ -78,14 +78,18 @@ function About() {
             </p>
             <h4 className="skills-title">My Skills:</h4>
             <div className="skills-grid">
-              <span className="skill-tag">React</span>
+              <span className="skill-tag">React.js</span>
+              <span className="skill-tag">node.js</span>
               <span className="skill-tag">Next.js</span>
               <span className="skill-tag">Java</span>
               <span className="skill-tag">Spring Boot</span>
               <span className="skill-tag">PostgreSQL</span>
-              <span className="skill-tag">Git & GitHub</span>
-              <span className="skill-tag">Docker</span>
+              <span className="skill-tag">MySQL</span>
+              <span className="skill-tag">Firebase</span>
               <span className="skill-tag">JavaScript</span>
+              <span className="skill-tag">TypeScript</span>
+              <span className="skill-tag">Git & GitHub</span>
+              
             </div>
           </div>
         </div>
@@ -97,39 +101,33 @@ function About() {
 // --- 4. Projects Component ---
 function Projects() {
   const myProjects = [
-    {
-      title: "Mobile Chat Application",
-      description: "A real-time, full-stack mobile chat solution enabling seamless communication. Built with React for a dynamic frontend and a robust Java backend, ensuring instant message delivery and a user-friendly experience.",
-      tech: ["React", "Java", "MySQL"],
-      github: "https://github.com/your-username/student-system",
-      live: "#",
-    },
+  
     {
       title: "Mobile Food Ordering & Delivery Application",
       description: "A complete mobile food ordering and delivery platform. This Android-native application, powered by a Java backend and Firebase, allows users to browse restaurants, place orders, and track deliveries in real-time.",
       tech: ["Android", "Java", "Firebase"],
-      github: "https://github.com/nithushi/SavoryHub",
+      github: "https://github.com/nithushi/SavoryHub-Mobile-Application",
       live: "#",
     },
     {
       title: "E-Commerce Web Application",
-      description: "A scalable E-Commerce web application designed for a modern online shopping experience. It features a secure Spring Boot backend for managing products and orders, coupled with a Node.js layer for handling user interactions and APIs",
-      tech: ["node.js", "Spring Boot", "MySQL"],
-      github: "https://github.com/your-username/savoryhub",
+      description: "A scalable E-Commerce web application designed for a modern online shopping experience. It features a secure Spring Boot backend for managing products and orders, coupled with a Next.js layer for handling user interactions and APIs",
+      tech: ["next.js", "Spring Boot", "MySQL"],
+      github: "https://github.com/nithushi/quick-cart-frontend",
       live: "#",
     },
     {
       title: "Healthcare Management System (used OODP concepts)",
       description: "A comprehensive desktop application for managing healthcare operations, built using JavaFX. This system demonstrates strong Object-Oriented Design Principles (OODP) to handle patient records, appointments, and staff management.",
       tech: ["java FX", "Java", "MySQL"],
-      github: "https://github.com/your-username/savoryhub",
+      github: "https://github.com/nithushi/GlobeMed-HMS",
       live: "#",
     },
     {
-      title: "Realtime Chat Application",
-      description: "An interactive, real-time chat application built on the Angular framework. It uses a Spring Boot WebSocket backend and MongoDB to deliver instant, bi-directional communication and message persistence for a live chat experience.",
-      tech: ["Angular", "Spring Boot", "MongoDB"],
-      github: "https://github.com/your-username/savoryhub",
+      title: "Content Sharing Platform",
+      description: "Content Hub is a modern social blogging platform built with Angular 19, Spring Boot, and PostgreSQL. It allows users to share stories, engage with comments, and connect with a community of creators.",
+      tech: ["Angular", "Spring Boot", "PostgreSQL"],
+      github: "https://github.com/nithushi/content-hub-frontend",
       live: "#",
     },
     {
@@ -137,6 +135,13 @@ function Projects() {
       description: "A secure and intuitive note-taking application for Android. Users can create, edit, and organize notes, with all data securely stored and managed by a Java-based backend and a MySQL database.",
       tech: ["Android", "Java", "MySQL"],
       github: "https://github.com/nithushi/Notebook",
+      live: "#",
+    },
+    {
+      title: "Mobile Chat Application",
+      description: "A real-time, full-stack mobile chat solution enabling seamless communication. Built with React for a dynamic frontend and a robust Java backend, ensuring instant message delivery and a user-friendly experience.",
+      tech: ["React", "Java", "MySQL"],
+      github: "https://github.com/your-username/student-system",
       live: "#",
     },
   ];
